@@ -1,5 +1,5 @@
-import React from 'react';
-import './LoadingSpinner.css';
+import React from "react";
+import "../styles/components/LoadingSpinner.css";
 
 const LoadingSpinner = ({ message = "Loading..." }) => {
   return (
@@ -12,4 +12,4 @@ const LoadingSpinner = ({ message = "Loading..." }) => {
   );
 };
 
-export default LoadingSpinner; 
+export default LoadingSpinner;

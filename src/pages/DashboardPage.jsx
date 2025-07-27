@@ -4,7 +4,7 @@ import { signOut } from 'firebase/auth';
 import { auth, db } from '../firebase/config';
 import { collection, query, where, orderBy, limit, getDocs } from 'firebase/firestore';
 import LoadingSpinner from '../components/LoadingSpinner';
-import './DashboardPage.css';
+import '../styles/pages/DashboardPage.css';
 
 const DashboardPage = () => {
   const [user, setUser] = useState(null);
